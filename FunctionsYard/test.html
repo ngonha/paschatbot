@@ -1,9 +1,12 @@
 <html>
-    <span id="MyId">text</span>
+    <span id="MyId1" style="background-color:cyan;">text</span>
+    <br>
+    <span id="MyId2" style="background-color:yellowgreen;">text</span>
     <script src="gptFunctions.js"></script>
     <script>
         function test() {
-            document.getElementById("MyId").innerText = (toTrainingFormat("Hello! How are \"you\" doing?", "I'm doing good, \"bro\"!"))
+            document.getElementById("MyId1").innerText = (JSON.stringify(toTrainingFormat("Hello! How are \"you\" doing?", "I'm doing good, \"bro\"!")));
+            document.getElementById("MyId2").innerText = (toTrainingString("Hello! How are \"you\" doing?", "I'm doing good, \"bro\"!"));
         }
         setTimeout(test, 1000);
     </script>

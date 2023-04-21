@@ -15,6 +15,9 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
+// For saving prompts to training data
+const { saveTrainingData } = require("./FunctionsYard/gptFunctions");
+
 app.use(bodyParser.json());
 app.use(cors());
 
@@ -74,6 +77,9 @@ app.post('/', async (req, res) => {
   console.log(message);
   if(response.data.choices[0].text){
     res.json({message: response.data.choices[0].text})
+    let testMessage = message.split('\n');
+    console.log(testMessage[testMessage.length - 1]);
+    saveTrainingData(testMessage[testMessage.length - 1], response.data.choices[0].text);
   }
 });
 

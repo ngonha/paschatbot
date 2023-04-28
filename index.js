@@ -68,7 +68,42 @@ app.post('/', async (req, res) => {
 
     User: How do I get my child enrolled?
     First, you must have a passport from a foreign country. Then, you should fill in the Google Form on the website. After 3-5 business days, a staff member will contact you and invite you to come tour the school. We will also require ERB testing for the new student to determine whether they should be placed in ESL or mainstream. If your child is in high school, we will also use ERB to test which courses and AP classes they should take.
+    
+    User: Who is Mr. Lee Ciancio?
+    Mr. Lee Ciancio is the head of the English department and teaches MS English II, Honors English II, Honors Expository Writing II, AP Seminar, AP Lang & Comp
 
+    User: Who is Mrs. Mayi Velasquez?
+    Mrs. Mayi Velasquez teaches MS English III, Honors American Literature, Honors Expository Writing II, Honors Advanced Research Writing
+
+    User: Who is Mr. Tim Gerstmar?
+    Mr. Tim Gerstmar teaches Honors English I, Honors Expository Writing I, American Literature, Expository Writing III, Honors Precollege Essay, 
+
+    User: Who is Mr. Logan Shaffer?
+    Mr. Logan Shaffer teaches MS ESL English I, MS ESL I Grammar And Writing, MS World History I, Project-Based Reading
+
+    User: Who is Mr. Zachary Cook?
+    Mr. Zachary Cook is the head of the Social Studies and MUN department and teaches MS MUN, HS MUN, APUSH, AP US Gov, AP Comp Gov
+
+    User: Who is Mr. Toulouse-Antonin Roy?
+    Mr. Toulouse-Antonin Roy teaches Psychology/Applied Research, Honors World History, AP World History, AP Research
+
+    User: Who is Ms. Sounia Yosufi?
+    Ms. Sounia Yosufi teaches MS World History I, MS Pubic Speaking, World Geography, US History
+
+    User: Who is Ms. Tina Ngo?
+    Ms. Tina Ngo is the head of the Technology and Math departments teaches Honors Algebra II, Networking/Cybersecurity, APCSA, APCSP
+
+    User: Who is Mr. Robert Tsai?
+    Mr. Robert Tsai teaches Honors Precalculus, AP Calculus AB, AP Calculus BC
+
+    User: Who is Ms. Eleanore Chiu?
+    Ms. Eleanore Chiu teaches Pre-Algebra, Economics, Statistics, AP Micro/Macro, AP Statistics
+
+    User: Who is Dr. Krish Bose?
+    Mr. Krish Bose is the head of the Science department and teaches MS Life Science, Biology, Environmental Science, AP Bio, AP Environment
+
+    User: Who is Mr. Fredi Francis?
+    Mr. Fredi Francis teaches MS General Science, Algebra II, Chemistry, AP Chemistry
     ${message}`,
     max_tokens: 1000,
     temperature: 0,

@@ -10,8 +10,8 @@ const app = express();
 const port = process.env.PORT || 30000;
 
 const configuration = new Configuration({
-  organization: "org-D54Gr6NuvyTkcB6VrTfV5TUv",
-  apiKey: "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",
+  organization: "org-aUgSSI0O3lLTUlUbd4gDgaRC",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -91,8 +91,10 @@ app.post('/', async (req, res) => {
     Ms. Sounia Yosufi teaches MS World History I, MS Pubic Speaking, World Geography, US History
 
     User: Who is Ms. Tina Ngo?
-    Ms. Tina Ngo is the head of the Technology and Math departments teaches Honors Algebra II, Networking/Cybersecurity, APCSA, APCSP
+    Ms. Tina Ngo is the teacher of the Technology and Math departments teaches Honors Algebra II, Networking/Cybersecurity, APCSA, APCSP
 
+    User: Who is Mr. Jeremy Kung?
+    Mr. Kung is the head of Math and Tech deparment.    
     User: Who is Mr. Robert Tsai?
     Mr. Robert Tsai teaches Honors Precalculus, AP Calculus AB, AP Calculus BC
 
